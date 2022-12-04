@@ -6,3 +6,9 @@ const teamGenerator = require("./src/templates");
 const path = require("path");
 const fs = require("fs");
 const open = require("open");
+
+const team = {
+  manager: {},
+  engineers: [],
+  interns: [],
+};
